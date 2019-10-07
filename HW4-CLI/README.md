@@ -28,13 +28,13 @@ CLI（Command Line Interface）实用程序是Linux下应用开发的基础。�
 
 2.分析参数（检查参数、报错等）
 
-![](image/2019-10-07 22-44-28 的屏幕截图.png)
+![](https://github.com/mmdxm/Sevice-Computing/blob/master/HW4-CLI/image/2019-10-07%2022-44-28%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
 在这一部分，程序会分析得到的输入是否合法，比如检查输入的指令是否是在指令集中，以及输入的数字（如页数）是否为合法数字，如果任一部分不合法，则报错提示，并退出程序
 
 3.3.根据参数调用指令来实现目的
 
-![2019-10-07 22-43-51 的屏幕截图](/home/lwh/桌面/markdown/image/2019-10-07 22-43-51 的屏幕截图.png)
+![2019-10-07 22-43-51 的屏幕截图](https://github.com/mmdxm/Sevice-Computing/blob/master/HW4-CLI/image/2019-10-07%2022-43-51%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
 这一部分是实际上process的过程，在这一部分，会检测文件的存在和可读性，以及文件内容的大小，当前面的任一条件无法满足输入的需求时，页同样会报错，并退出程序，若都满足条件，则打开输入流（可能是文件也可能是其他）并根据需求读对应的页，病把它输出到指定输出。
 
@@ -44,17 +44,17 @@ CLI（Command Line Interface）实用程序是Linux下应用开发的基础。�
 
 1../cli -s2 -e2 data       可以看出，第二页的开始是30，结束于60
 
-![2019-10-07 23-01-19 的屏幕截图](/home/lwh/桌面/markdown/image/2019-10-07 23-01-19 的屏幕截图.png)
+![2019-10-07 23-01-19 的屏幕截图](https://github.com/mmdxm/Sevice-Computing/blob/master/HW4-CLI/image/2019-10-07%2023-01-19%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
 2../cli -s1 -e2 -l7 data             当设置每页为7行时，第一页到第二页共14行
 
-![2019-10-07 23-03-08 的屏幕截图](/home/lwh/桌面/markdown/image/2019-10-07 23-03-08 的屏幕截图.png)
+![2019-10-07 23-03-08 的屏幕截图](https://github.com/mmdxm/Sevice-Computing/blob/master/HW4-CLI/image/2019-10-07%2023-03-08%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
 
 
 3../cli -s3 -e3 -f data      当加入-f参数时，由于前面每20行加一个\f，因此会有20行打印出来
 
-![2019-10-07 23-08-16 的屏幕截图](/home/lwh/桌面/markdown/image/2019-10-07 23-08-16 的屏幕截图.png)
+![2019-10-07 23-08-16 的屏幕截图](https://github.com/mmdxm/Sevice-Computing/blob/master/HW4-CLI/image/2019-10-07%2023-08-16%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
 
 
