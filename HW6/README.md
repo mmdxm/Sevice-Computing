@@ -45,20 +45,20 @@ func main() {
 ```
 首先运行Cloud.go文件
 
-![1](Image\1.png)接下来在浏览器访问http://localhost:8080/，可以看到
+![1](https://github.com/mmdxm/Sevice-Computing/blob/master/HW6/Image/1.png)接下来在浏览器访问http://localhost:8080/，可以看到
 
-![2](Image\2.png)
+![2](https://github.com/mmdxm/Sevice-Computing/blob/master/HW6/Image/2.png)
 
 下面是curl测试
 
-![3](Image\3.png)
+![3](https://github.com/mmdxm/Sevice-Computing/blob/master/HW6/Image/3.png)
 
 下面是ab测试
 
-![4](Image\4.png)
+![4](https://github.com/mmdxm/Sevice-Computing/blob/master/HW6/Image/4.png)
 
-![5](Image\5.png)
+![5](https://github.com/mmdxm/Sevice-Computing/blob/master/HW6/Image/5.png)
 
 
 
-![6](Image\6.png)
+![6](https://github.com/mmdxm/Sevice-Computing/blob/master/HW6/Image/6.png)
